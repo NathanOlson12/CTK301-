@@ -1,0 +1,44 @@
+a {
+    color:red;
+    text-decoration: none;
+}
+
+a:visited {
+    color:green
+}
+
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+.normaltext {
+    color:brown;
+    background-color: beige;
+
+}
+
+.HeaderOne {
+    color:white;
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.HeaderTwo {
+    color:orange;
+    background-color: black;
+}
+
+.HeaderThree {
+    color:lightblue;
+    background-color: black;
+}
+
+#HighLightedText {
+    color: #FF0000;
+    background-color:lightgrey;
+}
+
+#ContactInfo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
