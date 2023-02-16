@@ -1,0 +1,68 @@
+a:hover {
+  color:red;
+  text-decoration: underline;
+}
+
+a {
+  color:green;
+  text-decoration:none
+}
+
+p {
+  color:black
+  
+}
+
+.whitetext {
+  color:white
+  
+}
+
+.purple {
+  background-color:#98AAFF 
+}
+
+
+h2 {
+  color:blue
+  
+}
+
+#orangetext {
+color:orange
+
+}
+
+h3 {
+  color:black;
+  background-color:yellow
+  
+}
+
+#redtext {
+  color:red
+}
+
+h4 {
+color: yellow;
+background-color:green
+}
+
+#lightgreen{
+  color:black;
+  background-color:#90EE90
+}
+
+h5 {
+  color:red
+}
+
+.yellowbackground {
+  background-color:yellow 
+}
+
+#bluetext {
+  color:blue
+  
+  }
+
