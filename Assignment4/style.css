@@ -1,0 +1,78 @@
+body {
+    font-family: Sans-Serif;
+    background-image: url('./Banana.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.CenterText {
+    text-align: center
+}
+
+.JustifyText {
+    text-align: justify
+}
+
+a {
+    color:red;
+    text-decoration: none;
+}
+
+a:visited {
+    color:green
+}
+
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+.normaltext {
+    color:brown;
+    background-color: beige;
+
+}
+
+.HeaderOne {
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.HeaderTwo {
+    background-color: black;
+}
+
+.HeaderThree {
+    color:lightblue;
+    background-color: black;
+    
+}
+
+#HighLightedText {
+    color: #FF0000;
+    background-color:lightgrey;
+   
+}
+
+#ContactInfo {
+    color: black;
+}
+
+h1 {
+color: orange;
+font-style: italic;
+font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+    }
+
+img {
+    background-color:yellow ;
+    border: 15px solid black;
+    padding: 5px;
+    }
