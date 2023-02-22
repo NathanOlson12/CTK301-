@@ -1,0 +1,32 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border: 1px solid red;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: darkblue;
+    background-image: linear-gradient(to bottom, #009bff, #007cdf, #005fbf);
+    color: white;
+    display: inline-block;
+
+
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+
+
+}
+
+nav li a:hover {
+    background-color: blue;
+}
