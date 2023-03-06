@@ -1,0 +1,128 @@
+body {
+   
+    background-image: url('./a62.png');
+    background-repeat:repeat;
+    background-size:auto;
+    color: #FFFFFF;
+}
+
+#wrapper {
+    width: 960px;
+    border:2px solid black;
+    margin: 1em auto;
+    display: grid;
+    background-color: #FFFFFF;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto 60px;
+
+  }
+
+  header {
+    grid-column: span 12;
+  }
+
+  h1 {
+    color: white;
+    background-color:black;
+    font-weight: normal;
+    font-family: Helvetica;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: Helvetica;
+    border-bottom: 2px solid black;
+    line-height: 2;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+nav {
+grid-column: span 3;
+margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  nav li {
+    width: 210px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  nav li a:hover {
+    background-color: darkred;
+}
+
+  nav li a {
+    display: block;
+    background-color: red;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+  }
+
+  main a:hover {
+   color: blue;
+   text-decoration: underline;
+}
+
+main a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    color: black;
+    grid-column: span 9;
+    font-family: Georgia;
+    margin-right: 1em;
+}
+
+footer {
+    background-color: red;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-style: italic;
+    font-size:small;
+    text-align: center;
+    grid-column: span 12;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 8em;
+    padding-left: 8em;
+    border-top: 2px solid black;
+}
+
+
+  
+  main img {
+    float: left;
+    margin-right: 20px;
+    border: 2px solid black;
+    padding: 10px;
+  }
+
+ .boldtext {
+font-weight: bold;
+text-align: justify;
+ }
