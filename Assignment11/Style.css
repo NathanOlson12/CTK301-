@@ -1,0 +1,217 @@
+body {
+    background-color: lightgray;
+    background-size: auto;
+}
+
+#wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 0px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 550px auto auto;
+    grid-column-gap: 0px;
+}
+
+header {
+    grid-column: span 3;
+    background-image: linear-gradient(#10DDD9, white, #10DDD9);
+    color: black;
+    border: 1px solid black;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 5px 5px 5px #adadad; /* x, y, blur, color */
+    font-size: large;
+
+
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+nav {
+    grid-column: span 9;
+    font-weight: normal;
+    font-family: Georgia;
+    font-style: normal;
+    background-color: grey;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    transition: height 20s;
+    transition-delay: 10s;
+    transition-timing-function: ease;
+}
+
+nav ul {
+    padding: 0px;
+    color: black;
+    margin-top: 0px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+    nav li {
+        font-weight: normal;
+        width: 100px;
+        display: inline-block;
+        box-sizing: border-box;
+        line-height: 40px;
+        background-image: linear-gradient(#10DDD9, white, #10DDD9);
+        color: black;
+        margin-top: 1px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 0px;
+        font-size: larger;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: Righteous;
+        
+    }
+
+        nav li :hover {
+            color: white;
+            background-image: linear-gradient(black, #10DDD9, black);
+            border-radius: 10px;
+            height:100px ;
+        }
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 1em;
+    margin: auto;
+    color: black;
+}
+
+nav li a :visited {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    
+    margin-right: 1em;
+    display: contents;
+    
+}
+
+
+.circle-multiline {
+    display: table-cell;
+    height: 475px;
+    width: 475px;
+    text-align: justify;
+    vertical-align: middle;
+    border-radius: 50%;
+    /*background: #10DDD9;*/
+    background-image: url('Nathan.jpg');
+    background-size: cover;
+    font-size: 18px;
+    color: white;
+    box-shadow: 15px 15px 15px #ffffff; /* x, y, blur, color */
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+
+#gridMain {
+    grid-column-start: span 12;
+    color: black;
+    margin: auto;
+}
+#gridCol4{
+    grid-column-start: span 4;
+    color: black;
+    margin: auto;
+    padding-top: 100px;
+}
+.imageAutoWidth {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 40px;
+}
+footer {
+    grid-column: span 12;
+    font-weight: normal;
+    font-family: Georgia;
+    font-style: normal;
+    background-color: grey;
+}
+
+footer ul {
+    padding: 0px;
+    color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+}
+
+    footer li {
+        font-weight: normal;
+        width: 100px;
+        display: inline-block;
+        box-sizing: border-box;
+        line-height: 40px;
+        background-image: linear-gradient(#10DDD9, white, #10DDD9);
+        color: black;
+        margin-top: 1px;
+        margin-left: 0px;
+        margin-right: 4px;
+        margin-bottom: 0px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: Righteous;
+    }
+
+        footer li :hover {
+            color: white;
+            background-image: linear-gradient(black, #10DDD9, black);
+            border-radius: 10px;
+        }
+
+footer li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 1em;
+    color: black;
+}
+
+    footer a {
+        text-decoration: none;
+        color: black;
+    } 
+
+#gridContact {
+    grid-column-start: span 12;
+    color: black;
+    margin: 0px;
+    
+}
+
+footer p {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(#10DDD9, white, #10DDD9);
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1em;
+    border-top: 1px solid black;
+}
+
+#gridFooter {
+    grid-column-start: span 12;
+    color: black;
+    background-image: linear-gradient(#10DDD9, #10DDD9);
+    line-height: 45px;
+}
+
+.font50 {
+    font-size: 100px;
+}
