@@ -12,7 +12,7 @@ body {
     background-color: grey;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 600px auto auto;
+    grid-template-rows: 100px 650px auto;
     grid-column-gap: 0px;
 }
 
@@ -34,16 +34,26 @@ header {
     grid-column: span 3;
     background-image: linear-gradient(#10DDD9, white, #10DDD9);
     color: black;
-    border: 1px solid black;
+    border-top: 4px solid #444444;
+    border-left: 4px solid #444444;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    border-radius: 10px;
     font-family: 'Luckiest Guy', cursive;
     text-shadow: 5px 5px 5px #adadad; /* x, y, blur, color */
-    font-size: large;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 4px;
 }
 
 h1 {
+    padding: 0px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-weight: normal;
     text-align: center;
-    
 }
 
 nav {
@@ -60,26 +70,29 @@ nav {
     nav ul {
         padding: 0px;
         color: black;
-        margin-top: 0px;
-        margin-left: 6px;
+        margin-top: 10px;
+        margin-left: 8px;
         margin-right: 0px;
         margin-bottom: 0px;
     }
 
     nav li {
         font-weight: normal;
-        width: 160px;
+        width: 165px;
         display: inline-block;
         box-sizing: border-box;
-        line-height: 40px;
+        line-height: 80px;
         background-image: linear-gradient(#10DDD9, white, #10DDD9);
         color: black;
         margin-top: 1px;
         margin-left: 4px;
         margin-right: 4px;
         margin-bottom: 0px;
-        font-size: larger;
-        border: 1px solid black;
+        font-size: 30px;
+        border-top: 4px solid #444444;
+        border-left: 4px solid #444444;
+        border-bottom: 4px solid black;
+        border-right: 4px solid black;
         border-radius: 10px;
         font-family: Righteous;
         transition: color 2s ease;
@@ -89,37 +102,34 @@ nav {
             transition: color 2s ease;
             display: block;
             text-decoration: none;
-            padding-left: 1em;
-            margin: auto;
+            padding-left: 10px;
             color: black;
         }
         nav li p {
             display: block;
             text-decoration: none;
-            padding-left: 1em;
+            padding-left: 10px;
             margin: auto;
             color: black;
         }
 
-            nav li a :visited {
-                transition: color 2s ease;
-                text-decoration: none;
-                color: black;
-            }
+        nav li a :visited {
+            transition: color 2s ease;
+            text-decoration: none;
+            color: black;
+        }
 
 
         nav li :hover {
             transition: color 0.5s ease;
             color: white;
             background-image: linear-gradient(black, #10DDD9, black);
-            border-radius: 10px;
         }
 
 .navInitial {
     transition: color 0.5s ease;
     color: white;
     background-image: linear-gradient(black, #10DDD9, black);
-    border-radius: 10px;
 }
 
 
@@ -140,6 +150,7 @@ main {
     /*background: #10DDD9;*/
     background-image: url('images/Nathan.jpg');
     background-size: cover;
+    font-family: 'Comic Sans MS';
     font-size: 18px;
     color: white;
     box-shadow: 15px 15px 15px #ffffff; /* x, y, blur, color */
@@ -150,6 +161,7 @@ main {
     grid-column-start: span 12;
     color: black;
     margin: auto;
+
 }
 
 #gridwork1 {
@@ -182,65 +194,11 @@ main {
 footer {
     grid-column: span 12;
     font-weight: normal;
-    font-family: Georgia;
+    font-family: 'Luckiest Guy', cursive;
     font-style: normal;
-    background-color: grey;
+    line-height: 50px;
 }
 
-footer ul {
-    padding: 0px;
-    color: black;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 2px;
-}
-
-    footer li {
-        font-weight: normal;
-        width: 100px;
-        display: inline-block;
-        box-sizing: border-box;
-        line-height: 40px;
-        background-image: linear-gradient(#10DDD9, white, #10DDD9);
-        color: black;
-        margin-top: 1px;
-        margin-left: 0px;
-        margin-right: 4px;
-        margin-bottom: 0px;
-        font-size: larger;
-        border: 1px solid black;
-        border-radius: 10px;
-        font-family: Righteous;
-        transition: color 2s ease;
-    }
-
-        footer li :hover {
-            color: white;
-            background-image: linear-gradient(black, #10DDD9, black);
-            border-radius: 10px;
-            transition: color 0.5s ease;
-        }
-
-        footer li a {
-            display: block;
-            text-decoration: none;
-            padding-left: 10px;
-            color: black;
-            transition: color 2s ease;
-        }
-        footer li p {
-            display: block;
-            text-decoration: none;
-            padding-left: 10px;
-            color: black;
-        }
-
-    footer a {
-        text-decoration: none;
-        color: black;
-        transition: color 2s ease;
-    } 
 
 #gridContact {
     grid-column-start: span 12;
@@ -255,24 +213,30 @@ footer p {
     background-image: linear-gradient(#10DDD9, white, #10DDD9);
     margin: 0px;
     padding: 0px;
-    padding-left: 1em;
+    padding-left: 16px;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
     font-size: 20px;
+    line-height: 50px;
 }
 
-footer p a {
-    color: red;
-}
+    footer p a {
+        color: red;
+        text-decoration: none;
+        line-height: 50px;
+    }
 
-footer p a :visited {
-    color: red;
-}
+
+
+    footer p :hover {
+        font-size: 28px;
+        line-height: 50px;
+    }
 
 #gridFooter {
     grid-column-start: span 12;
-    color: black;
     background-image: linear-gradient(#10DDD9, #10DDD9);
-    line-height: 45px;
+    line-height: 50px;
 }
 
 .font50 {
@@ -327,10 +291,15 @@ footer p a :visited {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     font-size: 22px;
-    font-family: Georgia;
+    font-family: 'Comic Sans MS';
 }
+h2 {
+    font-family: 'Comic Sans MS';
+    padding-left: 20px;
+}
+
 
 
 main ul {
@@ -349,6 +318,18 @@ main ul li a {
     font-family: Helvetica;
     
 }
+main p a {
+    color: #10DDD9;
+}
+
+main p a :visited {
+    color: #10DDD9;
+}
+
+    main p :hover {
+        color: white;
+    }
+
 
 #gridContact1 {
     grid-column-start: span 6;
